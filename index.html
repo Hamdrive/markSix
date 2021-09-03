@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
-    <h1>Let's learn banana language!</h1>
-    <h2>Enter your text below and translate to minion speak!</h2>
-    <textarea name="" id="usertext" cols="30" rows="10"></textarea>
-    <button id="btn-translate">Speak banana!</button>
-    <textarea name="" id="translation" cols="30" rows="10"></textarea>
-    <h2>Now go out there and impress everyone with your new language skill!</h2>
-    
+  </head>
+  <body>
+    <div class="navbar">
+      <h1 class="navbar-text">Let's learn banana language!</h1>
+    </div>
+    <div class="main">
+        <div class="input-section">
+          <h2 class="input-title">Enter your text below and translate to minion speak!</h2>
+          <textarea name="" id="usertext" cols="100" rows="10"></textarea>
+        </div>
+        <div class="btn-div">
+          <button id="btn-translate">Speak banana!</button>
+        </div>
+        <div class="output-section">
+          <textarea name="" id="translation" cols="30" rows="10"></textarea>
+          <h2 class="output-title">
+            Now go out there and impress everyone with your new language skill!
+          </h2>
+        </div>
+    </div>
+    <div class="footer">
+      <h2 class="footer-title">Fun Fact!</h2>
+      <h3 class="footer-text">
+        Wonder what their language is called? It is called Minionese.
+        The language is a combination of different words from
+        various other languages English, French, Italian, Spanish, Korean and Russian 
+        (But their favorite Banana is still the same.)
+      </h3>
+    </div>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
