@@ -9,27 +9,29 @@ body{
     height: 100vh;
     flex-direction: column;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
 }
 
 
 .navbar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: auto;
     background-color: 	#FFCC66;
     width: 100%;
     height: 80px;
 }
 
 .navbar-text{
-    font-size: 36px;
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 1rem 0;
 }
 
 .main{
     display: flex;
     flex-direction: column;
     flex: 1;
-    height: 100vh;
+    margin: 2rem 0;
+
 }
 
 .input-section{
@@ -58,6 +60,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0.5rem 0;
 }
 
 #btn-translate {
@@ -104,6 +107,8 @@ body{
     align-items: center;
     background-color: 	#FFCC66;
     height: 100px;
+    padding: 1rem;
+
 }
 
 .footer-title{
@@ -115,4 +120,40 @@ body{
     margin: 0 100px;
     line-height: 24px;
     text-align: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.icons i{
+    margin: 0 2rem;
+    color: black;
+}
+
+.icons i:hover{
+    color: white;
+}
+
+.bottom-container{
+    background-color: 	#FFCC66;
+    height: 100px;
+    width: 100%;
+    margin-top: auto;
+    padding: 1rem 0;
+}
+
+.footer-link{
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.copyright{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0.5rem;
 }
